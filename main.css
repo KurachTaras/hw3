@@ -5,62 +5,76 @@ body {
 .wrap {
     display: flex;
     justify-content: center;
-    padding: 160px;
-}
-
-.card {
-    width: 300px;
-    height: 350px;
-    box-sizing: border-box;
-    border: 1px solid grey;
-    margin: 20px;
-    display: flex;
-    flex-flow: column;
     align-items: center;
-    position: relative;
+    padding-top: 160px;
 }
 
-.card > button {
-    width: 210px;
-    height: 50px;
-    border: 1px solid black;
-    font-size: 18px;
+.container {
+    width: 575px;
+    height: 500px;
 }
 
-h2 {
-    margin-top: 85px;
+.grey {
+    background: powderblue;
 }
 
-.card > p {
-    width: 210px;
-    padding: 8px 20px 20px;
-    color: grey;
-    line-height: 30px;
-    font-size: 18px;
-    text-align: justify;
-    margin: 0 0 10px;
+.blue {
+    background: #082140;
 }
 
-.center {
+.head {
+    height: 75px;
     display: flex;
-    justify-content: center;
-}
-
-.icon {
-    width: 85px;
-    height: 85px;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 7px;
     box-sizing: border-box;
-    border: 1px solid grey;
-    border-radius: 50%;
-    background: white;
-    position: absolute;
-    top: -50px;
+    margin-left: 75px;
+}
+
+.icons {
+    box-sizing: border-box;
+    margin-right: 75px;
 }
 
 .fa-solid {
-    color: orange;
-    font-size: 25px;
+    color: mediumslateblue;
+    font-size: 20px;
+}
+
+.fa-magnifying-glass {
+    margin-right: 10px;
+}
+
+.main {
+    height: 235px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    height: 100px;
+}
+
+.package {
+    width: 375px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: -50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: mediumslateblue;
+    border-radius: 10px;
 }
